@@ -1,0 +1,147 @@
+//basic code
+//print any message
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+//print age 
+#include <stdio.h>
+
+int main() {
+    int age = 25; 
+    printf("%d", age);
+
+    return 0;
+}
+
+
+//switch one number with another(same value for 2 variables)
+#include <stdio.h>
+int main(){
+	int firstNo = 25;
+	printf("First number: %d",firstNo);
+	
+	int secondNo = firstNo;
+	printf("second number: %d",secondNo);
+return 0;
+}
+
+//multi variables in single line
+#include <stdio.h>
+
+int main() {
+    int num1 = 0, num2 = 25; // Multiple variables declared and initialized properly
+
+    printf("num1: %d, num2: %d\n", num1, num2); // Print values to verify
+
+    return 0;
+}
+
+
+//Data types 
+//size of age
+#include <stdio.h>
+
+int main(){
+	int age =10;
+	
+	printf("%d",age);
+	printf("size: %zu",sizeof(age));
+	
+	return 0;
+}
+
+//double number
+#include<stdio.h>
+int main(){
+	double num =12.45;
+	printf("%lf",num);
+	
+return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+	double num =12.45;
+	printf("%.2lf",num);
+	
+return 0;
+}
+
+
+//float number
+#include<stdio.h>
+int main(){
+	float num1 =10.9f;
+	printf("%f",num1);
+	printf("%.1f",num1);
+		
+	return 0;
+}
+
+//character
+#include<stdio.h>
+int main(){
+	char character = 'z';
+	printf("%c",character);
+	printf("\n%d",character);
+	
+	return 0;
+}
+
+//user input
+
+#include<stdio.h>
+int main(){
+	
+int age;
+	printf("Enter Your age: ");
+	scanf("%d",&age) ; 
+
+	printf("age= %d",age);
+return 0;
+}
+
+//take multiple inputs together
+#include<stdio.h>
+int main(){
+	double number;
+	char alpha;
+
+	printf("Enter inputs: ");
+	scanf("%lf %c", &number,&alpha);
+	
+	return 0;
+}
+
+//comments
+ctrl+q -> single comments
+ctrl+shift+q -> multi comments
+
+//Operators
+//+,-,/,*,%(reminder)
+
+#include<stdio.h>
+int main(){
+	int a, b, sum, multi, sub, div;
+	
+	printf("Enter number 1");
+	printf("\n Enter number 2");
+	scanf("%d %d", &a, &b);
+	
+	sum = a + b;
+	sub = a - b;
+	multi = a * b;
+	div = a / b;
+	
+	printf("Summation Is : %d\n", sum);
+	printf("Subtraction Ids : %d\n", sub);
+	printf("Multiplication Is : %d\n", multi);
+	printf("Division Is : %d\n", div);
+	
+	return 0;
+}
